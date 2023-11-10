@@ -1,0 +1,30 @@
+.container {
+    background-color: #4361ee;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer__title {
+    margin-bottom: 1rem;
+}
+
+.footer__author {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 2rem; /* Contoh: Tingkatkan padding pada layar lebar */
+    }
+}
+
+@media (min-width: 992px) {
+    .footer__title {
+        font-size: 2rem; /* Contoh: Atur ukuran font untuk layar lebih lebar */
+    }
+
+    .footer__author {
+        font-weight: bold; /* Contoh: Tambahkan gaya lebih tebal pada layar lebar */
+    }
+}
